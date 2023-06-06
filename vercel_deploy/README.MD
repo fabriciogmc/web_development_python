@@ -1,6 +1,6 @@
-# Herdando de um template base e passando argumentos para um template
+# Exemplo de aplicação contendo tecnologia de templates do Jinja, arquivos externos CSS e imagens. 
 
-## Fabrício Galende M. de Carvalho
+## Autor: Fabrício Galende M. de Carvalho, PhD
 
 Para executar o sistema:
 
@@ -17,7 +17,27 @@ env/Scripts/activate.bat
 ```console
 pip install -r requirements.txt
 ```
-5. Executar a aplicação (na pasta src/)
+5. Executar a aplicação (na pasta api/)
 ```console
 python app.py
 ```
+
+
+
+## Instruções para a implantação no Vercel
+
+1. Instalar o node e seu gerenciador de pacotes, ou seja, o npm 
+1. Instalar o vercel através do comando: 
+    ```console 
+    npm install -g vercel 
+    ```
+1. Considerando que você já criou uma conta no Vercel, e que
+ está logado, utilize o comando seguinte no mesmo nível do arquivo vercel.json
+    ```console 
+    vercel
+    ```
+1. Defina um nome para a sua aplicação e utilize todas as demais opções de acordo com o padrão sugerido. 
+1. Verifique se o link disponibilizado ao final do processo de upload/build está acessível, caso não esteja, execute o comando 
+    ```console 
+    vercel --prod 
+    ```
