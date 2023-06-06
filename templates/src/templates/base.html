@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <meta charset="UTF-8">
+    <title>Título da minha aplicação ou interface</title>
+    <link rel='stylesheet' href="static/estilos.css"/>
+    {% endblock %}
+</head>
+<body>
+{% block nav %}
+<ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/personalizada">Home personalizada</a></li>
+</ul>
+{% endblock %}
+{% block contents %}
+
+{% endblock contents %}
+</body>
+</html>
