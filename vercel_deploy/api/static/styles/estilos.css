@@ -1,0 +1,22 @@
+ul{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+ul > li{
+    display: inline-block;
+    width: 30%;
+}
+
+a{
+    color: yellow;
+}
+a:visited{
+    color: white;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 35%;
+}
